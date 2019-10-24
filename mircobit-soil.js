@@ -1,3 +1,5 @@
+// this program is a moisture reader.
+
 let moistureReading = 0 // giving moisture a default value of 0
 basic.forever(function () { // using a forever loop
  
