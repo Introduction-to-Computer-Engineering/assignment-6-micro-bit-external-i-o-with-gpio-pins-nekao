@@ -1,6 +1,6 @@
 // this program is a moisture reader.
 
-let moistureReading = 0 // giving moisture a default value of 0
+let moistureReading:number = 0 //initializing variable
 basic.forever(function () { // using a forever loop
  
  pins.digitalWritePin(DigitalPin.P6, 1) //setting the value to 1 to turn on the sensor to prevent over use that may cause damage 
